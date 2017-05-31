@@ -88,7 +88,7 @@ banner
 
 .navbar-brand img {
     padding-top: 2px;
-    width: 120px !important;
+    width: 40px !important;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -97,7 +97,7 @@ banner
 
 .top-nav-collapse {
     padding: 0;
-    background: rgba(28,74,90, 0.9);
+    background-color: #EA6045;
 }
 
 .white, .white:hover, .white:focus
@@ -528,5 +528,5 @@ footer
 }
 
 .logoblind-small {
-	width: 140px; margin-top: -16px;
+	width: 10%; margin-top: -16px;
 }
