@@ -30,7 +30,6 @@ table {
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
 	color: #222222;
 }
 a, a:hover, a:focus, a:active{
@@ -69,7 +68,7 @@ banner
 }
 .navbar-default {
     background-color: #fff;
-    padding: 20px 0;
+    padding: 15px 0;
     transition: all 0.3s;
 }
 .navbar-default {
@@ -82,17 +81,17 @@ banner
 
 .navbar-brand
 {
-	font-family: 'Chewy', cursive;
-	font-size: 32px;
+	font-family: 'Raleway', 'Open Sans';
+	font-size: 20px;
 }
 
 .navbar-brand img {
-    padding-top: 2px;
-    width: 40px !important;
+    padding-top: 5px;
+    width: 35px !important;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #EA6045;
+    color: white;
 }
 
 .top-nav-collapse {
@@ -154,10 +153,10 @@ banner
 	color: #fff;
 }
 .banner-text h1{
-	font-family: 'Candal', sans-serif;
-	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
 	text-transform: uppercase;
-	padding-bottom:15px;
+    padding-right: 200px;
 }
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
 	margin-top: 30px;
