@@ -427,7 +427,7 @@ contact us
 footer
 ***************************************/
 #footer{
-	background-color: #325C6A;
+	background-color: #ed6623;
 }
 .ftr-tle {
     height: 50px;
@@ -472,7 +472,7 @@ footer
 }
 
 .footer-line a {
-    color: #0CB8B6;
+    color:black;
 }
 
 .quick-info li a{
