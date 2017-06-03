@@ -141,7 +141,7 @@ banner
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
+	background-color: RGBA(244, 152, 80, 0.78);
 	min-height: 650px;
 }
 .banner-info{
@@ -427,7 +427,7 @@ contact us
 footer
 ***************************************/
 #footer{
-	background-color: #325C6A;
+	background-color: #ed6623;
 }
 .ftr-tle {
     height: 50px;
@@ -472,7 +472,7 @@ footer
 }
 
 .footer-line a {
-    color: #0CB8B6;
+    color:black;
 }
 
 .quick-info li a{
