@@ -30,7 +30,6 @@ table {
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
 	color: #222222;
 }
 a, a:hover, a:focus, a:active{
@@ -69,7 +68,7 @@ banner
 }
 .navbar-default {
     background-color: #fff;
-    padding: 20px 0;
+    padding: 15px 0;
     transition: all 0.3s;
 }
 .navbar-default {
@@ -82,22 +81,22 @@ banner
 
 .navbar-brand
 {
-	font-family: 'Chewy', cursive;
-	font-size: 32px;
+	font-family: 'Raleway', 'Open Sans';
+	font-size: 20px;
 }
 
 .navbar-brand img {
-    padding-top: 2px;
-    width: 120px !important;
+    padding-top: 5px;
+    width: 35px !important;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #EA6045;
+    color: white;
 }
 
 .top-nav-collapse {
     padding: 0;
-    background: rgba(28,74,90, 0.9);
+    background-color: #EA6045;
 }
 
 .white, .white:hover, .white:focus
@@ -141,7 +140,7 @@ banner
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
+	background-color: RGBA(244, 152, 80, 0.78);
 	min-height: 650px;
 }
 .banner-info{
@@ -154,10 +153,10 @@ banner
 	color: #fff;
 }
 .banner-text h1{
-	font-family: 'Candal', sans-serif;
-	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
 	text-transform: uppercase;
-	padding-bottom:15px;
+    padding-right: 200px;
 }
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
 	margin-top: 30px;
@@ -427,7 +426,7 @@ contact us
 footer
 ***************************************/
 #footer{
-	background-color: #325C6A;
+	background-color: #ed6623;
 }
 .ftr-tle {
     height: 50px;
@@ -472,7 +471,7 @@ footer
 }
 
 .footer-line a {
-    color: #0CB8B6;
+    color:black;
 }
 
 .quick-info li a{
@@ -528,5 +527,243 @@ footer
 }
 
 .logoblind-small {
-	width: 140px; margin-top: -16px;
+	width: 10%; margin-top: -16px;
+}
+
+/*Fancy button images on homepage*/
+
+.containerfeature {
+  position: relative;
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+}
+
+.overlayfeature {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.containerfeature:hover .overlayfeature {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+.containerfeature > img {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 0;
+}
+
+.titlefeature {
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.containerfeature:hover .titlefeature {
+  top: 90px;
+}
+
+.buttonfeature {
+  position: absolute;
+  width: 500px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.buttonfeature a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.containerfeature:hover .buttonfeature {
+  opacity: 1;
+}
+
+/*Sidebar for about*/
+
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  margin-left: -250px;
+  left: 250px;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+#wrapper.active {
+  padding-left: 0;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 0;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #999999;
+  display: block;
+  text-decoration: none;
+  padding-left: 60px;
+}
+
+.sidebar-nav li a span:before {
+  position: absolute;
+  left: 0;
+  color: #41484c;
+  text-align: center;
+  width: 20px;
+  line-height: 18px;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li.active {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}
+
+.content-header h1 {
+  margin: 0;
+  margin-left: 20px;
+  line-height: 65px;
+  display: inline-block;
+}
+
+#menu-toggle {
+    text-decoration: none;
+}
+
+.btn-menu {
+  color: #000;
+} 
+
+.inset {
+  padding: 20px;
+}
+
+@media (max-width:767px) {
+
+#wrapper {
+  padding-left: 0;
+}
+
+#sidebar-wrapper {
+  left: 0;
+}
+
+#wrapper.active {
+  position: relative;
+  left: 250px;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 250px;
+  width: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#menu-toggle {
+  display: inline-block;
+}
+
+.inset {
+  padding: 15px;
+}
+
+}
+
+.bg2{
+	background-color: RGBA(244, 152, 80, 0.78);
+	min-height: 100px;
+}
+
+/*test parallax*/
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1488628075628-e876f502d67a?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
