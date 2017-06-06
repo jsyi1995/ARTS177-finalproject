@@ -617,8 +617,9 @@ footer
   position: fixed;
   height: 100%;
   overflow-y: auto;
-  z-index: 1000;
+  z-index: 1500;
   transition: all 0.4s ease 0s;
+  background-color: transparent;
 }
 
 #wrapper.active {
@@ -632,8 +633,6 @@ footer
 #page-content-wrapper {
   width: 100%;
 }
-
-
 
 .sidebar-nav {
   position: absolute;
@@ -692,21 +691,6 @@ footer
   background: none;
 }
 
-.content-header {
-  height: 65px;
-  line-height: 65px;
-}
-
-.content-header h1 {
-  margin: 0;
-  margin-left: 20px;
-  line-height: 65px;
-  display: inline-block;
-}
-
-#menu-toggle {
-    text-decoration: none;
-}
 
 .btn-menu {
   color: #000;
@@ -747,9 +731,11 @@ footer
 
 }
 
+/*nav bar template*/
+
 .bg2{
 	background-color: RGBA(244, 152, 80, 0.78);
-	min-height: 100px;
+	min-height: 80px;
 }
 
 /*test parallax*/
@@ -770,9 +756,13 @@ footer
 }
   
 .bg-2 {
-	background: url('/assets/example/bg_suburb.jpg') no-repeat top center fixed;
+	background: url('https://images.unsplash.com/photo-1488628075628-e876f502d67a?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=') no-repeat center center fixed;
     color:#fff;
     background-size:cover;
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
 }
 
 .bg-3 {
