@@ -769,7 +769,7 @@ footer
 }
 
 .needspace {
-    padding-top: 50px;
+    padding-top: 550px;
 }
 
 .needmorespace {
@@ -820,10 +820,10 @@ footer
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  height: 500px;
 }
 .bgimg-1 {
-  background-image: url("http://www.drawingtutorials101.com/drawing-tutorials/Religions/Hinduism/vishnu/how-to-draw-Vishnu-step-0.png");
+  background-image: url("https://images.unsplash.com/photo-1488628075628-e876f502d67a?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=");
   min-height: 100%;
 }
 
