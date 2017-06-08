@@ -781,6 +781,11 @@ footer
     padding: 10px;
 }
 
+.leftspace {
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
 @media (max-width:767px) {
 
     #wrapper {
