@@ -837,3 +837,7 @@ footer
   background-image: url("http://www.srinivasagovinda.com/images/2010/release1/srinivasa-govinda-rel1-8.jpg");
   min-height: 400px;
 }
+
+.section-header {
+	margin-top: 50px;
+}
