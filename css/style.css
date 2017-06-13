@@ -849,3 +849,11 @@ footer
 .section-header {
 	margin-top: 50px;
 }
+
+.btn2-form, .btn2-form:hover, .btn2-form:focus {
+    background-color: #0cb8b6;
+    color: #fff;
+    border-radius: 0px;
+    padding: 20px 40px;
+    font-size: 20px;
+}
