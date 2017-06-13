@@ -91,7 +91,7 @@ banner
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: black;
+    color: white;
 }
 
 .top-nav-collapse {
@@ -816,7 +816,7 @@ footer
 /*nav bar template*/
 
 .bg2{
-	background-color: rgba(244, 152, 80, 0.11);
+	background-color: rgba(244, 152, 80, 0.71);
 	min-height: 80px;
 }
 
