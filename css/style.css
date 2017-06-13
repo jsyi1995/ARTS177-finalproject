@@ -91,7 +91,7 @@ banner
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: white;
+    color: black;
 }
 
 .top-nav-collapse {
@@ -112,7 +112,8 @@ banner
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+		background-color: rgba(214, 97, 0, 0.51);
+    /*background-color: rgba(12, 184, 182, 0.21);*/
 }
 .navbar-default .navbar-nav > li > a
 {
@@ -125,14 +126,16 @@ banner
 {
 	color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    background-color: rgba(214, 97, 0, 0.51);
+    /*background-color: rgba(12, 184, 182, 0.21);*/
 }
 .affix {
     background-color: #ffffff !important;
 }
 .affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
 {
-    background-color: rgba(12, 184, 182) !important;
+    /*background-color: rgba(12, 184, 182) !important;*/
+		background-color: rgba(214, 97, 0, 0.21);
 }
 #banner{
 	background: url('../img/bg-banner.jpg') no-repeat fixed;
@@ -813,7 +816,7 @@ footer
 /*nav bar template*/
 
 .bg2{
-	background-color: RGBA(244, 152, 80, 0.78);
+	background-color: rgba(244, 152, 80, 0.11);
 	min-height: 80px;
 }
 
