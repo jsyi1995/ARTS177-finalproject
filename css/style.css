@@ -97,6 +97,7 @@ banner
 .top-nav-collapse {
     padding: 0;
     background-color: #EA6045;
+		/*change text to dark, no background*/
 }
 
 .white, .white:hover, .white:focus
@@ -694,7 +695,7 @@ footer
 
 .btn-menu {
   color: #000;
-} 
+}
 
 .inset {
   padding: 20px;
@@ -840,4 +841,8 @@ footer
 .bgimg-3 {
   background-image: url("http://www.srinivasagovinda.com/images/2010/release1/srinivasa-govinda-rel1-8.jpg");
   min-height: 400px;
+}
+
+.section-header {
+	margin-top: 50px;
 }
