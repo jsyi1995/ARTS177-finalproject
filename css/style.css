@@ -72,7 +72,7 @@ banner
     transition: all 0.3s;
 }
 .navbar-default {
-    background-color: transparent;
+    background-color: #EA6045;
     border: 0px;
 }
 .navbar {
@@ -144,7 +144,7 @@ banner
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(244, 152, 80, 0.78);
+	background-color: RGBA(209, 212, 214, 0.78);
 	min-height: 650px;
 }
 .banner-info{
