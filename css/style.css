@@ -768,8 +768,18 @@ footer
 
 .sidebar-brand {
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 30px;
+}
+
+.prettytext:link, .prettytext:visited {
+    text-decoration: none;
+    color: #6BB9F0;
+}
+
+.prettytext:hover, .prettytext:active {
+    text-decoration: none;
+    color: black;
 }
 
 .needspace {
@@ -820,32 +830,6 @@ footer
 	min-height: 80px;
 }
 
-/*test parallax*/
-
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-  opacity: 0.6;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-.bgimg-1 {
-  background-image: url("https://images.unsplash.com/photo-1488628075628-e876f502d67a?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=");
-  min-height: 100%;
-}
-
-.bgimg-2 {
-  background-image: url("https://i.ytimg.com/vi/S7_niexGYEo/hqdefault.jpg");
-  min-height: 400px;
-}
-
-.bgimg-3 {
-  background-image: url("http://www.srinivasagovinda.com/images/2010/release1/srinivasa-govinda-rel1-8.jpg");
-  min-height: 400px;
-}
-
 .section-header {
 	margin-top: 50px;
 }
@@ -856,4 +840,22 @@ footer
     border-radius: 0px;
     padding: 20px 40px;
     font-size: 20px;
+}
+
+.pocket {
+    padding-bottom: 100px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img/logo.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
