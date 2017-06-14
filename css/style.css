@@ -740,7 +740,7 @@ footer
 #sidebar-wrapper {
   margin-left: -250px;
   left: 250px;
-  width: 250px;
+  width: 450px;
   background: transparent;
   position: fixed;
   height: 100%;
@@ -756,8 +756,8 @@ footer
 
 .sidebar-nav {
   position: absolute;
-  top: 0;
-  width: 250px;
+  top: 100px;
+  width: 450px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -765,7 +765,7 @@ footer
 
 .sidebar-brand {
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 30px;
 }
 
