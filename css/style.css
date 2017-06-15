@@ -802,6 +802,12 @@ footer
 
 @media (max-width:767px) {
 
+		.navbar-brand
+		{
+			font-family: 'Raleway', 'Open Sans';
+			font-size: 14px;
+		}
+
     #wrapper {
       padding-left: 0;
     }
@@ -858,4 +864,12 @@ footer
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.schedule img{
+	max-width: 75vw;
+}
+
+div.row {
+	padding-right: 50px !important;
 }
