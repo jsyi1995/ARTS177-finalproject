@@ -735,32 +735,9 @@ footer
 
 }*/
 
-#wrapper {
-  padding-left: 250px;
-  transition: all 0.4s ease 0s;
-}
 
-#sidebar-wrapper {
-  margin-left: -250px;
-  left: 250px;
-  width: 450px;
-  background: transparent;
-  position: fixed;
-  height: 100%;
-  overflow-y: auto;
-  z-index: 1000;
-  transition: all 0.4s ease 0s;
-  text-align: center;
-}
-
-#page-content-wrapper {
-  width: 100%;
-}
 
 .sidebar-nav {
-  position: absolute;
-  top: 100px;
-  width: 450px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -800,33 +777,18 @@ footer
     padding-bottom: 30px;
 }
 
-@media (max-width:767px) {
+.row {
+    margin-top:10px;
+}
 
-		.navbar-brand
-		{
-			font-family: 'Raleway', 'Open Sans';
-			font-size: 14px;
-		}
+.sidebar-outer {
+    position: relative;
+}
 
-    #wrapper {
-      padding-left: 0;
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
     }
-
-    #sidebar-wrapper {
-      left: 0;
-    }
-
-    #wrapper.active {
-      position: relative;
-      left: 250px;
-    }
-
-    #wrapper.active #sidebar-wrapper {
-      left: 250px;
-      width: 250px;
-      transition: all 0.4s ease 0s;
-    }
-
 }
 
 /*nav bar template*/

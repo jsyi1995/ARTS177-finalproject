@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body id="myPage" >
+  <body id="myPage" data-spy="scroll" data-target="#kek" data-offset="50">
   	<!--banner-->
 	<section>
 		<div class="bg2">
@@ -43,8 +43,8 @@
 		</div>
 	</section>
 
-	<div id="wrapper">
-		<div id="sidebar-wrapper">
+	<div class="col-sm-2 sidebar-outer" >
+        <div class="sidebar" id="kek">
 			<ul class="sidebar-nav">
 				<li class="sidebar-brand"><a href="#about" class="prettytext">About Us</a></li>
 				<li class="sidebar-brand"><a href="#history" class="prettytext">History</a></li>
@@ -55,14 +55,12 @@
 				<li class="sidebar-brand"><a href="#donor" class="prettytext">Donors</a></li>
 			</ul>
 		</div>
-        <!-- Page content -->
-        <div id="page-content-wrapper">
-
-            <div class="page-content" data-spy="scroll" data-target="#spy">
+    </div>
+    <div class="col-sm-10">
+        <div class="content">
+			<div class="page-content" data-spy="scroll" data-target="#spy">
 				<div class="container">
                 <div class="row">
-					<br>
-					<br>
                     <div class="col-md-12 needmorespace" id="about">
                         <h1>For more than 50 years, SCVBC has provided support to individuals facing the uncertainties, fears, and challenges related to uncorrectable vision loss. We are a community-based organization dedicated to increasing the confidence, independence, and quality of life of the blind and visually impaired. SCVBC tackles complex vision loss issues comprehensively through rehabilitative, educational, and recreational services that ensure the long-term independence and empowerment of our clients.</h1>
 					</div>
@@ -179,6 +177,17 @@
                 </div>
             </div>
             </div>
+        </div>
+    </div>
+
+	<div id="wrapper">
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+
+            <div class="page-content" data-spy="scroll" data-target="#spy">
+				<div class="container">
+            	</div>
+            </div>
 
         </div>
 
@@ -254,10 +263,10 @@
 
     $(document).ready(function(){
   // Add scrollspy to <body>
-		$('body').scrollspy({target: ".sidebar-wrapper", offset: 50});   
+		$('body').scrollspy({target: ".sidebar", offset: 50});   
 
 		// Add smooth scrolling on all links inside the navbar
-		$("#sidebar-wrapper a").on('click', function(event) {
+		$("#kek a").on('click', function(event) {
 			// Make sure this.hash has a value before overriding default behavior
 			if (this.hash !== "") {
 			// Prevent default anchor click behavior
